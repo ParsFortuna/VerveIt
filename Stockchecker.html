@@ -25,28 +25,27 @@
 	<body>
       
      
-   <img src= "logo_verve_colour.jpg" height="150">
-   
+      <img src= "Images/VerveImages/verve_bold_mix.jpg" width ="250" height ="250" border>
       
-          
-    <h1>Current Weight of the Bottle</h1><input type ="number" id ="CurrentWeightInput">
-      <h1>Default Weight of the Bottle</h1><input type ="number" id ="DefaultWeightInput">
+        
+      <h1> Current Weight of the Bottle (kg)</h1><input type ="number" id ="CurrentWeightInput">
+      <h1> Tare Weight of the Bottle (kg)</h1><input type ="number" id ="DefaultWeightInput">
+      <div>
+        <button onclick ="TareWeights()">Search Products</button>
       
-      <h1 style = "font size:11px">ABV</h1><input type = "number" id = "ABVInput">
-		
-		<button onclick ="VerveIt()">Verve It!</button>
+      <h1 style = "font size:11px"> ABV (%) </h1><input type = "number" id = "ABVInput">
+	  
+      <div>	
+	 <button onclick ="VerveIt()">Verve It!</button>
+      </div>
+     
+      <h2> ABW (%)</h2><input type = "number" id = "ABW">
       
-      <!--<h2>ABW</h2> -->
+     <h2> Density</h2><input type = "number" id = "DensityDisplay">
       
-      ABW: <input type = "number" id = "ABW">
-      <!-- <h3 id = "ABW">ABW Display</h3> -->
+     <h2> Current Mass (g) </h2><input type= "number" id = "CMassDisplay">
       
-      <h2>Density</h2>
-      <input type = "number" id = "DensityDisplay">
-      <h2>Current Mass</h2>
-      <input type= "number" id = "CMassDisplay">
-      <h2>Current Volume</h2>
-      <input type = "number" id = "CVolumeDisplay">
+      <h2> Current Volume (L)</h2><input type = "number" id = "CVolumeDisplay">
 		
 	</body>
 	</html>
